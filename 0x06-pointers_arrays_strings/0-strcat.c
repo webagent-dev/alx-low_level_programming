@@ -9,7 +9,7 @@
  * Return: char value
  *
  */
-char *_strcat(char *dest, *src)
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 
