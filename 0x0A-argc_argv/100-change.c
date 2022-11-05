@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int a, n = 0, i, t;
-	int c[6] = [25, 10, 5, 2, 1};
+	int c[6] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
 	{
