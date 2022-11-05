@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	if (argc != 2)
 	{
 		puts("Error");
-		return (0);
+		return (1);
 	}
 	a = atio(argv[1]);
 	if (a <= 0)
