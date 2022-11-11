@@ -3,19 +3,18 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - checks malloc
- * @b: integer to check
- * Return: a pointer or void
+ * malloc_checked - allocates memory using malloc
+ * @b: memory to allocate
+ *
+ * Return: pointer to allocated memory or normal process termination id error
  *
  */
-
 void *malloc_checked(unsigned int b)
 {
-	void *t;
+	void *p;
 
-	t = malloc(b);
-	if (t == NULL)
+	p = malloc(b);
+	if (p == NULL)
 		exit(98);
-
-	return (t);
+	return (p);
 }
