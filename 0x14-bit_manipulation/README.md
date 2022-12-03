@@ -1,3 +1,2 @@
 # 0x14. C - Bit manipulation
-## Readme coming soon..
-
+## Readme Coming.. soon...
